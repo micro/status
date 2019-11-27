@@ -42,7 +42,6 @@ function checkURL(url, callback) {
 	};
 
 	xhttp.open("GET", 'https://' + url, true);
-	xhttp.setRequestHeader("Origin", window.location.href);
 	xhttp.send();
 }
 
