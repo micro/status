@@ -2,7 +2,6 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <script src="status.js"></script>
     <style>
     html {
       font-family: 'Source Code Pro', monospace;
@@ -28,5 +27,11 @@
     <div class="notice">Notice: <span id="notice"></span></div>
     <table id="urls"></table>
     </div>
+    <script type="text/javascript">
+      var script = document.createElement("script");
+      script.src = window.location.href + '/status.js';
+      script.type = "text/javascript";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    </script>
   </body>
 </html>
