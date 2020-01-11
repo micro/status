@@ -10,7 +10,7 @@ import (
 func main() {
 	service := web.NewService(
 		web.Name("go.micro.web.status"),
-		web.Address(":8080"),
+		web.Address(":9080"),
 		web.Handler(http.FileServer(http.Dir("."))),
 	)
 	// parse command line

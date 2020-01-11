@@ -7,7 +7,8 @@ var domain = "micro.mu";
 // regions in which we exist
 var regions = [
 	"lon1-do",
-	"ap-east-az",
+	"eastus2-az",
+	"uksouth-az",
 	"ap-east-1-aws",
 	"us-west2-gcp"
 ];
